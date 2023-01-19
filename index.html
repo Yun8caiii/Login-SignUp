@@ -17,11 +17,11 @@
             <h1 class="form__title">Login</h1>
             <div class="form__message form__message--error"></div>
             <div class="form__input-group">
-                <input type="text" class="form__input" autofocus placeholder="Username or email">
+                <input type="text" id="loginUsername" class="form__input" autofocus placeholder="Username or email">
                 <div class="form__input-error-message"></div>
             </div>
             <div class="form__input-group">
-                <input type="password" class="form__input" autofocus placeholder="Password">
+                <input type="password" id="loginPassword" class="form__input" autofocus placeholder="Password">
                 <div class="form__input-error-message"></div>
             </div>
             <button class="form__button" type="submit">Continue</button>
@@ -40,15 +40,15 @@
                 <div class="form__input-error-message"></div>
             </div>
             <div class="form__input-group">
-                <input type="text" class="form__input" autofocus placeholder="Email Address">
+                <input type="text" id="emailAddress" class="form__input" autofocus placeholder="Email Address">
                 <div class="form__input-error-message"></div>
             </div>
             <div class="form__input-group">
-                <input type="password" class="form__input" autofocus placeholder="Password">
+                <input type="password" id="password" class="form__input" autofocus placeholder="Password">
                 <div class="form__input-error-message"></div>
             </div>
             <div class="form__input-group">
-                <input type="password" class="form__input" autofocus placeholder="Confirm password">
+                <input type="password" id="confirmPassword" class="form__input" autofocus placeholder="Confirm password">
                 <div class="form__input-error-message"></div>
             </div>
             <button class="form__button" type="submit">Continue</button>
@@ -57,6 +57,21 @@
             </p>
         </form>
     </div>
+
+    <main class="landingPage">
+        <div class="pokemonTitle">
+            <h1>Poke Finder</h1>
+            <p>Search for a pokemon</p>
+        </div>
+        <div class="description">
+            <p>Search for a pokemon by name or number</p>
+        </div>
+        <div class="searchBox">
+            <input id="pokemonName" type="text" placeholder="Pokemon Name">
+            <button id="search">🔍</button>
+        </div>
+        <div class="pokemonBox"></div>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>

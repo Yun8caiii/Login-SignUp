@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    background: url(./pokebackground.png);
+    background: var(--color-success);
     background-size: cover;
 }
 
@@ -127,3 +127,110 @@ body {
 .form__link:hover {
     text-decoration: underline;
 }
+
+.landingPage {
+    display: none;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  
+  .pokemonTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    font: 700 2rem "Roboto", sans-serif;
+  }
+
+  .pokemonTitle h1 {
+    color: #fff;
+  }
+
+  .pokemonTitle p {
+    margin-top: 7rem;
+  }
+
+  .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    font: 400 1rem "Roboto", sans-serif;
+    color: #fff;
+  }
+
+  .searchBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .searchBox input {
+    border-radius: 8px 0 0 8px;
+    border: 0;
+    outline: none;
+    height: 36px;
+    padding: 4px 16px;
+    background-color: white;
+    color: #000;
+  }
+  
+  .searchBox button {
+    border-radius: 0 8px 8px 0;
+    border: 0;
+    height: 36px;
+    padding: 4px 16px;
+    background-color: white;
+  }
+  
+  .pokemonBox {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+  }
+  
+  .pokemonBox img {
+    width: 200px;
+  }
+  
+  .pokemonBox p {
+    margin-top: 1rem;
+  }
+  
+  .pokemonBox .pokemonInfo {
+    padding: 2rem;
+  }
+
+  .pokemonDemo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    background-color: #da1111;
+
+  }
+
+  .pokemonDemo img {
+    width: 100px;
+    background-color: #da1111;
+  }
+
+  .pokemonDemo p {
+    margin-top: 1rem;
+    color: #fff;
+    background-color: #da1111;
+  }
+
+  .pokemonDemo .pokemonInfo1 {
+    padding: 2rem;
+    background-color: #da1111;
+  }
+
+  .pokemonDemo h2 {
+    color: #fff;
+    background-color: #da1111;
+  }
